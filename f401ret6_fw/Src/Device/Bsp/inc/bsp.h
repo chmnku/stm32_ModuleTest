@@ -9,7 +9,9 @@
 #define SRC_DEVICE_BSP_INC_BSP_H_
 
 #include "app.h"
+#include "usb_device.h"
 
 void bspInit(void);
+void Error_Handler(void);
 
 #endif /* SRC_DEVICE_BSP_INC_BSP_H_ */

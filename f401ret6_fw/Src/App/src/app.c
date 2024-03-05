@@ -9,6 +9,8 @@
 
 void delay(uint32_t ms);
 
+extern uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
+
 void appInit(void)
 {
 
@@ -21,7 +23,9 @@ void appMain(void)
   {
     HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
 
-    delay(2000);
+    delay(1000);
+
+    CDC_Transmit_FS((uint8_t *)"test\n", 6);
   }
 }
 

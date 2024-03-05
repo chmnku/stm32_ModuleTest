@@ -1,2 +1,2 @@
 ../Src/Device/Bsp/src/bsp.c:12:6:bspInit	120	static
-../Src/Device/Bsp/src/bsp.c:75:6:Error_Handler	4	static,ignoring_inline_asm
+../Src/Device/Bsp/src/bsp.c:78:6:Error_Handler	4	static,ignoring_inline_asm

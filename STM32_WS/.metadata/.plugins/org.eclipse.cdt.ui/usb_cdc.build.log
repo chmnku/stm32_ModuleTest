@@ -1,10 +1,10 @@
-02:24:54 **** Incremental Build of configuration Debug for project usb_cdc ****
+02:55:25 **** Incremental Build of configuration Debug for project usb_cdc ****
 make -j10 all 
 arm-none-eabi-size  usb_cdc.elf 
    text	   data	    bss	    dec	    hex	filename
-   5892	     20	   1572	   7484	   1d3c	usb_cdc.elf
+  27836	    260	   5636	  33732	   83c4	usb_cdc.elf
 Finished building: default.size.stdout
  
 
-02:24:54 Build Finished. 0 errors, 0 warnings. (took 137ms)
+02:55:25 Build Finished. 0 errors, 0 warnings. (took 140ms)
 

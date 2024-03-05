@@ -9,6 +9,10 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Src/Lib/ret6_fw/USB_DEVICE/Target/subdir.mk
+-include Src/Lib/ret6_fw/USB_DEVICE/App/subdir.mk
+-include Src/Lib/ret6_fw/Middlewares/ST/STM32_USB_Device_Library/Core/Src/subdir.mk
+-include Src/Lib/ret6_fw/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/subdir.mk
 -include Src/Lib/ret6_fw/Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Src/Device/Hw/src/subdir.mk
 -include Src/Device/Bsp/startup/subdir.mk
