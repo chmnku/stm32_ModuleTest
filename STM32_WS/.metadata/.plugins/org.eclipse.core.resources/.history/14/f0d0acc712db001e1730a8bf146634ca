@@ -1,0 +1,17 @@
+/*
+ * bsp.c
+ *
+ *  Created on: Mar 6, 2024
+ *      Author: chmnku
+ */
+
+#include "bsp.h"
+#include "stm32f4xx_hal.h"
+
+
+void bspInit(void)
+{
+  HAL_Init();
+
+
+}

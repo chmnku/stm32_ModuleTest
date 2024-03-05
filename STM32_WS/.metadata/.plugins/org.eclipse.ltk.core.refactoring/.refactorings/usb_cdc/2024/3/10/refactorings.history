@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;usb_cdc/Src/Device/Bsp/Inc&apos; to &apos;inc&apos;" description="Rename resource &apos;Inc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/Device/Bsp/Inc" name="inc" stamp="1709656033076" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;usb_cdc/Src/Device/Bsp/Src&apos; to &apos;src&apos;" description="Rename resource &apos;Src&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/Device/Bsp/Src" name="src" stamp="1709656039063" updateReferences="true"/>
+</session>
