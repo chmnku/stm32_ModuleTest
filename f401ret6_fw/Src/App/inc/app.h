@@ -14,4 +14,6 @@
 void appInit(void);
 void appMain(void);
 
+uint32_t millis(void);
+
 #endif /* SRC_APP_INC_APP_H_ */
